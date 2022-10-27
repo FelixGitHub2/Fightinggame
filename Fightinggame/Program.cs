@@ -25,7 +25,7 @@ Console.ReadLine();
 
 Random generator = new Random();
 
-while (playerhp > 0 || enemyhp > 0)
+while (playerhp > 0 && enemyhp > 0)
 {
     Console.WriteLine("New Round");
     Console.WriteLine("START");
